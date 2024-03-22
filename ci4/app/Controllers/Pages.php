@@ -2,11 +2,20 @@
 
 namespace App\Controllers;
 
+<<<<<<< HEAD
 use CodeIgniter\Exceptions\PageNotFoundException; // Add this line
 
 class Pages extends BaseController
 {
     // ...
+=======
+class Pages extends BaseController
+{
+    public function index()
+    {
+        return view('welcome_message');
+    }
+>>>>>>> 60dee806162f446c3184508a03e1d1570ea68706
 
     public function view($page = 'home')
     {
